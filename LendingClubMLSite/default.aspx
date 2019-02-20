@@ -16,7 +16,7 @@
         </div>
 
 
-        <asp:LinkButton ID="lbPredict" runat="server">Predict</asp:LinkButton>
+        <asp:LinkButton ID="lbPredict" runat="server" OnClick="lbPredict_Click">Predict</asp:LinkButton>
         <asp:Label ID="lblOutput" runat="server" Text="{Prediction Displays Here}"></asp:Label>
 
     </form>
