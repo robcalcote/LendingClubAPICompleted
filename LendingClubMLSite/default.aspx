@@ -4,7 +4,7 @@
 
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
-    <title>Rob Calcote 21.2 Completed</title>
+    <title>Rob Calcote 12.7 Completed</title>
     <style>
         body {font-family: Arial; font-size: 12px;}
     </style>
@@ -16,22 +16,9 @@
         </div>
 
         <table>
-            <tr><td>Loan Purpose:</td>
-                <td><asp:DropDownList ID="ddlLoanPurpose" runat="server">
-                    <asp:ListItem></asp:ListItem>
-                    <asp:ListItem Value="debt_consolidation">Debt Consolidation</asp:ListItem>
-                    <asp:ListItem Value="credit_card">Credit Card</asp:ListItem>
-                    <asp:ListItem Value="major_purchase">Major Purchase</asp:ListItem>
-                    <asp:ListItem Value="small_business">Small Business</asp:ListItem>
-                    <asp:ListItem Value="car">Car</asp:ListItem>
-                    <asp:ListItem Value="home_improvement">Home Improvement</asp:ListItem>
-                    <asp:ListItem Value="house">House</asp:ListItem>
-                    <asp:ListItem Value="medical">Medical</asp:ListItem>
-                    <asp:ListItem Value="moving">Moving</asp:ListItem>
-                    <asp:ListItem Value="renewable_energy">Renewable Energy</asp:ListItem>
-                    <asp:ListItem Value="vacation">Vacation</asp:ListItem>
-                    <asp:ListItem Value="other">Other</asp:ListItem>
-                </asp:DropDownList></td></tr>
+            <tr><td>Debt to Income Ratio</td>
+                <td>
+                    <asp:TextBox ID="txtDTI" runat="server"></asp:TextBox></td></tr>
             <tr><td>Employment Length:</td>
                 <td><asp:DropDownList ID="ddlEmploymentLength" runat="server">
                     <asp:ListItem></asp:ListItem>
