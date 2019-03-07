@@ -22,13 +22,13 @@ namespace LendingClubMLSite {
         protected global::System.Web.UI.HtmlControls.HtmlForm form1;
         
         /// <summary>
-        /// ddlLoanPurpose control.
+        /// txtDTI control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.DropDownList ddlLoanPurpose;
+        protected global::System.Web.UI.WebControls.TextBox txtDTI;
         
         /// <summary>
         /// ddlEmploymentLength control.
