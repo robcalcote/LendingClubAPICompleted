@@ -31,6 +31,15 @@ namespace LendingClubMLSite {
         protected global::System.Web.UI.WebControls.TextBox txtDTI;
         
         /// <summary>
+        /// ddlLoanPurpose control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.DropDownList ddlLoanPurpose;
+        
+        /// <summary>
         /// ddlEmploymentLength control.
         /// </summary>
         /// <remarks>
@@ -38,15 +47,6 @@ namespace LendingClubMLSite {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.DropDownList ddlEmploymentLength;
-        
-        /// <summary>
-        /// rblHomeOwnership control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.RadioButtonList rblHomeOwnership;
         
         /// <summary>
         /// txtIncome control.
@@ -58,49 +58,13 @@ namespace LendingClubMLSite {
         protected global::System.Web.UI.WebControls.TextBox txtIncome;
         
         /// <summary>
-        /// rblIncVerification control.
+        /// txtFICOLow control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.RadioButtonList rblIncVerification;
-        
-        /// <summary>
-        /// txtDTI control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txtDTI;
-        
-        /// <summary>
-        /// txtPastDelinquencies control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txtPastDelinquencies;
-        
-        /// <summary>
-        /// txtCreditAgeDays control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txtCreditAgeDays;
-        
-        /// <summary>
-        /// txtFICO control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txtFICO;
+        protected global::System.Web.UI.WebControls.TextBox txtFICOLow;
         
         /// <summary>
         /// txtInquiries6 control.
@@ -110,42 +74,6 @@ namespace LendingClubMLSite {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.TextBox txtInquiries6;
-        
-        /// <summary>
-        /// txtLastDelinquency control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txtLastDelinquency;
-        
-        /// <summary>
-        /// txtOpenAccounts control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txtOpenAccounts;
-        
-        /// <summary>
-        /// txtDerogatoryRecords control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txtDerogatoryRecords;
-        
-        /// <summary>
-        /// txtTotalCreditBalance control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txtTotalCreditBalance;
         
         /// <summary>
         /// txtCreditUtil control.
@@ -164,24 +92,6 @@ namespace LendingClubMLSite {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.TextBox txtTotAccounts;
-        
-        /// <summary>
-        /// txtPastCollections12 control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txtPastCollections12;
-        
-        /// <summary>
-        /// txtDelinquentAmount control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txtDelinquentAmount;
         
         /// <summary>
         /// txtTotCurBalance control.
@@ -229,24 +139,6 @@ namespace LendingClubMLSite {
         protected global::System.Web.UI.WebControls.TextBox txtAccountsOpened24;
         
         /// <summary>
-        /// txtChargeOffs control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txtChargeOffs;
-        
-        /// <summary>
-        /// txtPastDueAmount control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txtPastDueAmount;
-        
-        /// <summary>
         /// txtMortgage control.
         /// </summary>
         /// <remarks>
@@ -254,24 +146,6 @@ namespace LendingClubMLSite {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.RadioButtonList txtMortgage;
-        
-        /// <summary>
-        /// txtBankruptcies control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.RadioButtonList txtBankruptcies;
-        
-        /// <summary>
-        /// txtTaxLiens control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.RadioButtonList txtTaxLiens;
         
         /// <summary>
         /// lbPredict control.
